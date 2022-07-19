@@ -1,0 +1,259 @@
+/* Cusom Flach Styles */
+
+body {
+
+}
+
+p {
+    font-family: var(--fontFamily-serif);
+}
+
+.logo-outer {
+    width: 100px;
+}
+
+.logo {
+    width: 100px;   
+}
+
+.social-icon-one li a {
+    font-size: 2.4rem;
+    color: #000;
+}
+
+/* Reality */
+
+.reality-section .content-column .inner-column {
+    padding: 0;
+    padding-left: 140px;
+}
+
+.reality-section .content-column .inner-column h2 {
+    letter-spacing: 0;
+    color: #9B9B9A;
+}
+
+.reality-section .content-column .about-number .number {
+    color: #9B9B9A;
+    font-family: var(--fontFamily-sans);
+    font-size: 20px;
+    margin-bottom: 2rem;
+
+}
+
+.reality-section .content-column .inner-column .text p {
+    font-size: 20px;
+}
+
+.reality-section .content-column .inner-column .numbering {
+    margin-top: 60px;
+}
+
+
+.sec-title h2 {
+    color: #9B9B9D;
+}
+
+.sec-title .text {
+    font-family: var(--fontFamily-serif);
+    font-size: 1.25rem;
+    font-weight: 300;
+    
+}
+
+.sec-title.centered .text {
+    max-width: 410px;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.gallery-section .filters li {
+    font-family: var(--fontFamily-sans);
+    letter-spacing: 0;
+    color: #111;
+    padding: 0.5rem;
+}
+
+.gallery-section .filters li.active {
+    background-color: #FFF;
+    border: 1px solid var(--color-flach);
+    color: #111;
+}
+
+.gallery-section .filters li:before {
+    background-color: transparent;
+}
+
+
+/* Container */
+
+.auto-container {
+    max-width: 1446px;
+}
+
+.cont-foto  img {
+    width: 100%;
+    height: auto;
+}
+
+/* Main Slider */
+
+.main-slider  {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+.main-slider img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-slider .toolbar {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+  /* top: 50%; */
+  left: 0;
+  right: 0;
+  text-align: center;
+  /* transform: translate(-50%, -50%); */
+  text-align: center;
+  font-family: var(--fontFamily-sans);
+    
+}
+
+.legend-text {
+    font-size: 3.625rem;
+    text-transform: uppercase;
+    color: var( --color-heading-black);
+    margin: auto;
+    margin-bottom: 9.75rem;
+    margin-top: 23rem;
+    line-height: 1.4;
+}
+
+/* Menu */
+
+.main-menu .navigation > li > a {
+    font-family: var(--fontFamily-sans);
+    color: var( --color-heading-black);
+    font-size: 1.25rem;
+}
+
+.social-icon-one li a {
+    font-size: 1.75rem;
+}
+
+/* Buttons */
+
+.btn {
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    font-family: var(--fontFamily-sans);
+    border-radius: .5rem;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.btn-style-three {
+    background-color: var(--color-flach);
+    border-radius: .5rem;
+    font-family: var(--fontFamily-sans);
+    cursor: pointer;
+}
+
+.btn-flach {
+    background-color: var(--color-flach);
+    color: var(--color-light);
+    font-size: .9rem;
+}
+
+.btn-flach:hover {
+    background-color: var( --color-heading-black);
+    color: var(--color-light)
+}
+
+/* Gallery */
+
+.cont-gallery {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+}
+
+.foto-gallery {
+    width: 100%;
+    height: 300px;
+    background-color: #999;
+}
+
+/* Contactanos */
+
+.fluid-section-one .outer-container 
+.form-column .content .map-info-content .address {
+    font-size: 1.3rem;
+    color: #111;
+    font-weight: 800;
+}
+
+.fluid-section-one .outer-container 
+.form-column .content .map-info-content 
+.contact-number {
+    font-size: 1.3rem;
+    color: #111;
+    font-weight: 800;
+}
+
+.fluid-section-one .outer-container 
+.form-column .content .map-info-content .email {
+    font-size: 1.3rem;
+    color: #111;
+    font-weight: 800;
+}
+
+
+::-webkit-input-placeholder { /* Edge */
+    color: #111;
+    font-family: var(--fontFamily-sans);
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #111;
+    font-family: var(--fontFamily-sans);
+  }
+  
+  ::placeholder {
+    color: #111;
+    font-family: var(--fontFamily-sans);
+  }
+
+  .main-footer .logo-widget ul {
+    margin-bottom: 1rem;
+  }
+
+  .main-footer .logo-widget ul li {
+    text-transform: none;
+    font-size: 1rem;
+  }
+
+  .main-footer .footer-widget {
+    font-family: var(--fontFamily-sans);
+  }
+
+  .main-footer .footer-widget .social-icon-two li a {
+    font-size: 24px;
+  }
+
+  .main-footer .footer-widget .social-icon-two li {
+    margin-left: 0;
+  }
