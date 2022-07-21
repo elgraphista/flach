@@ -12,6 +12,25 @@ import imgSlider4 from "../images/carrusel/4.jpg"
 import imgReality from "../images/reality.jpg"
 import imgLogo from "../images/logo.svg"
 
+/* Gallery - Editorial */
+import imgGalleryEd1 from "../images/galeria/editorial/cartagena-maglio-perez.jpg"
+import imgGalleryEd2 from "../images/galeria/editorial/cartagena-maglio-perez2.jpg"
+import imgGalleryEd3 from "../images/galeria/editorial/nocturno-pablo-cabrera.jpg"
+import imgGalleryEd4 from "../images/galeria/editorial/nocturno-pablo-cabrera2.jpg"
+import imgGalleryEd5 from "../images/galeria/editorial/venus-colectivo-granada.jpg"
+import imgGalleryEd6 from "../images/galeria/editorial/venus-colectivo-granada2.jpg"
+
+/* Gallery - Exhibiciones */
+
+import imgGalleryEx1 from "../images/galeria/exposiciones/agustina-triquell-embalse.jpg"
+import imgGalleryEx2 from "../images/galeria/exposiciones/fernando-montiel-distopia.jpg"
+import imgGalleryEx3 from "../images/galeria/exposiciones/misha-vallejo-manta-manaus.jpg"
+import imgGalleryEx4 from "../images/galeria/exposiciones/musuk-nolte-sombra-de-isla.jpg"
+import imgGalleryEx5 from "../images/galeria/exposiciones/paloma-palomino-estados.jpg"
+import imgGalleryEx6 from "../images/galeria/exposiciones/tamara-merino-diario-de-cuarentena.jpg"
+
+
+
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -489,24 +508,117 @@ Tienda - Galería - Librería - Editorial
                 {/*Filter*/}
                 <div className="filters">
                 	<ul className="filter-tabs filter-btns clearfix">
-                        <li className="filter active" data-role="button" data-filter=".all"><span className="txt">Editorial</span></li>
-						<li className="filter" data-role="button" data-filter=".design"><span className="txt">Exhibiciones</span></li>
+                        {/* <li className="filter active" data-role="button" data-filter=".all"><span className="txt">Todo</span></li> */}
+						<li className="filter" data-role="button" data-filter=".editorial"><span className="txt">Editorial</span></li>
+						<li className="filter" data-role="button" data-filter=".exhibicion"><span className="txt">Exhibiciones</span></li>
                         
                     </ul>
                 </div>
                 <div className="items-container row clearfix masonry">
+
+                    {/*Gallery Item Two*/}
+                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 photography design editorial">
+						<div className="inner-box">
+                        	<div className="image">
+                            	<img src={imgGalleryEd2} alt="" />
+                                <div className="overlay-box">
+                                	<div className="overlay-inner">
+                                    	<div className="content">
+											<a href={imgGalleryEd2} data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
+                                        	<h3><a href="portfolio-single-1.html">Cartagena</a></h3>
+                                            <div className="title">Maglio Perez</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/*Gallery Item Two*/}
+                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 inspiration concept editorial">
+						<div className="inner-box">
+                        	<div className="image">
+                            	<img src={imgGalleryEd5} alt="" />
+                                <div className="overlay-box">
+                                	<div className="overlay-inner">
+                                    	<div className="content">
+											<a href={imgGalleryEd5} data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
+                                        	<h3><a href="portfolio-single-1.html">Venus</a></h3>
+                                            <div className="title">Colectivo Granada</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/*Gallery Item Two*/}
+                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 inspiration concept editorial">
+						<div className="inner-box">
+                        	<div className="image">
+                            	<img src={imgGalleryEd4} alt="" />
+                                <div className="overlay-box">
+                                	<div className="overlay-inner">
+                                    	<div className="content">
+											<a href={imgGalleryEd4} data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
+                                        	<h3><a href="portfolio-single-1.html">Nocturno</a></h3>
+                                            <div className="title">Pablo Cabrera</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/*Gallery Item Two*/}
+                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 editorial">
+						<div className="inner-box">
+                        	<div className="image">
+                            	<img src={imgGalleryEd1} alt="" />
+                                <div className="overlay-box">
+                                	<div className="overlay-inner">
+                                    	<div className="content">
+											<a href={imgGalleryEd1} data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
+                                        	<h3><a href="portfolio-single-1.html">Cartagena</a></h3>
+                                            <div className="title">Maglio perez</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    {/*Gallery Item Two*/}
+                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 design inspiration editorial">
+						<div className="inner-box">
+                        	<div className="image">
+                            	<img src={imgGalleryEd6} alt="" />
+                                <div className="overlay-box">
+                                	<div className="overlay-inner">
+                                    	<div className="content">
+											<a href={imgGalleryEd6} data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
+                                        	<h3><a href="portfolio-single-1.html">Venus</a></h3>
+                                            <div className="title">Colectivo Granada</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 
+                    
+                    
                     {/*Gallery Item Two*/}
-                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 all">
+                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 photography design concept editorial">
 						<div className="inner-box">
                         	<div className="image">
-                            	<img src="https://via.placeholder.com/370x500" alt="" />
+                            	<img src={imgGalleryEd3} alt="" />
                                 <div className="overlay-box">
                                 	<div className="overlay-inner">
                                     	<div className="content">
-											<a href="https://via.placeholder.com/370x500" data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
-                                        	<h3><a href="portfolio-single-1.html">Business</a></h3>
-                                            <div className="title">Photography</div>
+										<a href={imgGalleryEd3} data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
+                                        	<h3><a href="portfolio-single-1.html">Nocturno</a></h3>
+                                            <div className="title">Pablo Cabrera</div>
                                         </div>
                                     </div>
                                 </div>
@@ -514,17 +626,86 @@ Tienda - Galería - Librería - Editorial
                         </div>
                     </div>
                     
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+    
+                </div>
+
+
+                <div className="items-container row clearfix masonry">
                     {/*Gallery Item Two*/}
-                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 photography design all">
+                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 exhibicion">
 						<div className="inner-box">
                         	<div className="image">
-                            	<img src="https://via.placeholder.com/370x235" alt="" />
+                            	<img src={imgGalleryEx1} alt="" />
                                 <div className="overlay-box">
                                 	<div className="overlay-inner">
                                     	<div className="content">
-											<a href="https://via.placeholder.com/370x235" data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
-                                        	<h3><a href="portfolio-single-1.html">Business</a></h3>
-                                            <div className="title">Photography</div>
+											<a href={imgGalleryEx1} data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
+                                        	<h3><a href="portfolio-single-1.html">Embalse</a></h3>
+                                            <div className="title">Agustina Triquell</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    {/*Gallery Item Two*/}
+                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 photography design exhibicion">
+						<div className="inner-box">
+                        	<div className="image">
+                            	<img src={imgGalleryEx2} alt="" />
+                                <div className="overlay-box">
+                                	<div className="overlay-inner">
+                                    	<div className="content">
+											<a href={imgGalleryEx2} data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
+                                        	<h3><a href="portfolio-single-1.html">Distopia</a></h3>
+                                            <div className="title">Fernando Montiel</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/*Gallery Item Two*/}
+                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 design inspiration exhibicion">
+						<div className="inner-box">
+                        	<div className="image">
+                            	<img src={imgGalleryEx6} alt="" />
+                                <div className="overlay-box">
+                                	<div className="overlay-inner">
+                                    	<div className="content">
+											<a href={imgGalleryEx6} data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
+                                        	<h3><a href="portfolio-single-1.html">Diario de Cuarentena</a></h3>
+                                            <div className="title">Tamara Merino</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+{/*Gallery Item Two*/}
+<div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 inspiration concept exhibicion">
+						<div className="inner-box">
+                        	<div className="image">
+                            	<img src={imgGalleryEx5} alt="" />
+                                <div className="overlay-box">
+                                	<div className="overlay-inner">
+                                    	<div className="content">
+											<a href={imgGalleryEx5} data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
+                                        	<h3><a href="portfolio-single-1.html">Estados</a></h3>
+                                            <div className="title">Paloma Palominos</div>
                                         </div>
                                     </div>
                                 </div>
@@ -532,17 +713,18 @@ Tienda - Galería - Librería - Editorial
                         </div>
                     </div>
                     
+
                     {/*Gallery Item Two*/}
-                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 photography design concept all">
+                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 photography design concept exhibicion">
 						<div className="inner-box">
                         	<div className="image">
-                            	<img src="https://via.placeholder.com/370x500" alt="" />
+                            	<img src={imgGalleryEx3} alt="" />
                                 <div className="overlay-box">
                                 	<div className="overlay-inner">
                                     	<div className="content">
-										<a href="https://via.placeholder.com/370x500" data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
-                                        	<h3><a href="portfolio-single-1.html">Business</a></h3>
-                                            <div className="title">Photography</div>
+										<a href={imgGalleryEx3} data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
+                                        	<h3><a href="portfolio-single-1.html">Manta - Manaus</a></h3>
+                                            <div className="title">Misha Vallejo</div>
                                         </div>
                                     </div>
                                 </div>
@@ -550,17 +732,21 @@ Tienda - Galería - Librería - Editorial
                         </div>
                     </div>
                     
+                    
+                    
+                    
+                    
                     {/*Gallery Item Two*/}
-                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 inspiration concept all">
+                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 inspiration concept exhibicion">
 						<div className="inner-box">
                         	<div className="image">
-                            	<img src="https://via.placeholder.com/370x500" alt="" />
+                            	<img src={imgGalleryEx4} alt="" />
                                 <div className="overlay-box">
                                 	<div className="overlay-inner">
                                     	<div className="content">
-											<a href="https://via.placeholder.com/370x500" data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
-                                        	<h3><a href="portfolio-single-1.html">Business</a></h3>
-                                            <div className="title">Photography</div>
+											<a href={imgGalleryEx4} data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
+                                        	<h3><a href="portfolio-single-1.html">Sombra de Isla</a></h3>
+                                            <div className="title">Musuk Nolte</div>
                                         </div>
                                     </div>
                                 </div>
@@ -568,41 +754,8 @@ Tienda - Galería - Librería - Editorial
                         </div>
                     </div>
                     
-                    {/*Gallery Item Two*/}
-                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 inspiration concept all">
-						<div className="inner-box">
-                        	<div className="image">
-                            	<img src="https://via.placeholder.com/370x235" alt="" />
-                                <div className="overlay-box">
-                                	<div className="overlay-inner">
-                                    	<div className="content">
-											<a href="https://via.placeholder.com/370x235" data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
-                                        	<h3><a href="portfolio-single-1.html">Business</a></h3>
-                                            <div className="title">Photography</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     
-                    {/*Gallery Item Two*/}
-                    <div className="gallery-item-two masonry-item col-lg-4 col-md-6 col-sm-12 design inspiration all">
-						<div className="inner-box">
-                        	<div className="image">
-                            	<img src="https://via.placeholder.com/370x235" alt="" />
-                                <div className="overlay-box">
-                                	<div className="overlay-inner">
-                                    	<div className="content">
-											<a href="https://via.placeholder.com/370x235" data-fancybox="portfolio" data-caption="" className="image-link lightbox-image"><span className="icon pe-7s-expand1"></span></a>
-                                        	<h3><a href="portfolio-single-1.html">Business</a></h3>
-                                            <div className="title">Photography</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                     
                 </div>
 				
