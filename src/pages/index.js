@@ -5,7 +5,10 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Helmet from "react-helmet"
-import imgSlider from "../images/carrusel/1.jpg"
+import imgSlider1 from "../images/carrusel/1.jpg"
+import imgSlider2 from "../images/carrusel/2.jpg"
+import imgSlider3 from "../images/carrusel/3.jpg"
+import imgSlider4 from "../images/carrusel/4.jpg"
 import imgReality from "../images/reality.jpg"
 import imgLogo from "../images/logo.svg"
 
@@ -46,7 +49,7 @@ const BlogIndex = ({ data, location }) => {
 
 {/* Slider */}
 
-<section className="main-slider">
+{/* <section className="main-slider">
     <div className="toolbar">
         <div className="legend-text">
         Espacio Fotográfico <br />
@@ -55,7 +58,278 @@ Tienda - Galería - Librería - Editorial
         <button type="submit" className="theme-btn btn-style-three"><span className="txt">Tienda Online</span></button>
     </div>
   <img src={imgSlider} alt="" />
-</section>
+</section> */}
+
+<section className="main-slider">
+    	
+        <div className="rev_slider_wrapper fullwidthbanner-container"  id="rev_slider_one_wrapper" data-source="gallery">
+            <div className="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
+                <ul>
+                	
+                    <li data-transition="slidingoverlayhorizontal" data-description="Slide Description"  data-index="rs-1688" data-slotamount="default" data-thumb="https://via.placeholder.com/1900x955" data-title="Slide Title">
+                    <img alt="" className="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src={imgSlider1}/> 
+                    
+                    <div className="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['800','800','800','420']"
+                    data-whitespace="normal"
+                    data-hoffset="['0','0','0','0']"
+                    data-voffset="['-60','-80','-110','-100']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                    	<h2 className="text-center">
+                            Espacio Fotográfico <br/>
+                            Tienda - Galería - Librería - Editorial
+
+                        </h2>
+                    </div>
+                    
+                    <div className="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-whitespace="normal"
+                    data-width="['800','800','700','480']"
+                    data-hoffset="['0','0','0','0']"
+                    data-voffset="['55','30','10','-15']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                    	<div className="text text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</div>
+                    </div>
+                    
+                    <div className="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['600','600','400','360']"
+                    data-whitespace="normal"
+                    data-hoffset="['0','0','0','0']"
+                    data-voffset="['150','120','120','100']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                    	<div className="text-center">
+                    		<a href="contact.html" className="theme-btn btn-style-one"><span className="txt">Contact Now</span></a>
+                        </div>
+                    </div>
+                    
+                    </li>
+                    
+                    <li data-transition="slidingoverlayhorizontal" data-description="Slide Description"  data-index="rs-1689" data-slotamount="default" data-thumb="https://via.placeholder.com/1900x850" data-title="Slide Title">
+                    <img alt="" className="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src={imgSlider2}/>
+                    
+					<div className="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['800','800','800','420']"
+                    data-whitespace="normal"
+                    data-hoffset="['0','0','0','0']"
+                    data-voffset="['-60','-80','-110','-100']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                    	<h2 className="text-center">REACH today AND GROW you business.</h2>
+                    </div>
+                    
+                    <div className="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-whitespace="normal"
+                    data-width="['800','800','700','480']"
+                    data-hoffset="['0','0','0','0']"
+                    data-voffset="['55','30','10','-15']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                    	<div className="text text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</div>
+                    </div>
+                    
+                    <div className="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['600','600','400','360']"
+                    data-whitespace="normal"
+                    data-hoffset="['0','0','0','0']"
+                    data-voffset="['150','120','120','100']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                    	<div className="text-center">
+                    		<a href="contact.html" className="theme-btn btn-style-one"><span className="txt">Contact Now</span></a>
+                        </div>
+                    </div>
+					
+                    </li>
+					
+					<li data-transition="slidingoverlayhorizontal" data-description="Slide Description"  data-index="rs-1690" data-slotamount="default" data-thumb="https://via.placeholder.com/1900x955" data-title="Slide Title">
+                    <img alt="" className="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src={imgSlider3}/>
+                    
+					<div className="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['800','800','800','420']"
+                    data-whitespace="normal"
+                    data-hoffset="['0','0','0','0']"
+                    data-voffset="['-60','-80','-110','-100']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                    	<h2 className="text-center">We are here for your business help.</h2>
+                    </div>
+                    
+                    <div className="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-whitespace="normal"
+                    data-width="['800','800','700','480']"
+                    data-hoffset="['0','0','0','0']"
+                    data-voffset="['55','30','10','-15']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                    	<div className="text text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</div>
+                    </div>
+                    
+                    <div className="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['600','600','400','360']"
+                    data-whitespace="normal"
+                    data-hoffset="['0','0','0','0']"
+                    data-voffset="['150','120','120','100']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                    	<div className="text-center">
+                    		<a href="contact.html" className="theme-btn btn-style-one"><span className="txt">Contact Now</span></a>
+                        </div>
+                    </div>
+					
+                    </li>
+                    <li data-transition="slidingoverlayhorizontal" data-description="Slide Description"  data-index="rs-1690" data-slotamount="default" data-thumb="https://via.placeholder.com/1900x955" data-title="Slide Title">
+                        <img alt="" className="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src={imgSlider4}/>
+                        
+                        <div className="tp-caption" 
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingtop="[0,0,0,0]"
+                        data-responsive_offset="on"
+                        data-type="text"
+                        data-height="none"
+                        data-width="['800','800','800','420']"
+                        data-whitespace="normal"
+                        data-hoffset="['0','0','0','0']"
+                        data-voffset="['-60','-80','-110','-100']"
+                        data-x="['center','center','center','center']"
+                        data-y="['middle','middle','middle','middle']"
+                        data-textalign="['top','top','top','top']"
+                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                            <h2 className="text-center">We are here for your business help.</h2>
+                        </div>
+                        
+                        <div className="tp-caption" 
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingtop="[0,0,0,0]"
+                        data-responsive_offset="on"
+                        data-type="text"
+                        data-height="none"
+                        data-whitespace="normal"
+                        data-width="['800','800','700','480']"
+                        data-hoffset="['0','0','0','0']"
+                        data-voffset="['55','30','10','-15']"
+                        data-x="['center','center','center','center']"
+                        data-y="['middle','middle','middle','middle']"
+                        data-textalign="['top','top','top','top']"
+                        data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                            <div className="text text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</div>
+                        </div>
+                        
+                        <div className="tp-caption" 
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingtop="[0,0,0,0]"
+                        data-responsive_offset="on"
+                        data-type="text"
+                        data-height="none"
+                        data-width="['600','600','400','360']"
+                        data-whitespace="normal"
+                        data-hoffset="['0','0','0','0']"
+                        data-voffset="['150','120','120','100']"
+                        data-x="['center','center','center','center']"
+                        data-y="['middle','middle','middle','middle']"
+                        data-textalign="['top','top','top','top']"
+                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                            <div className="text-center">
+                                <a href="contact.html" className="theme-btn btn-style-one"><span className="txt">Contact Now</span></a>
+                            </div>
+                        </div>
+                        
+                        </li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </section>
 
 
 {/* Reality Section */}
@@ -403,19 +677,19 @@ Tienda - Galería - Librería - Editorial
                                 <div className="row clearfix">
                                     
 									<div className="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="username" value="" placeholder="Nombre" required/>
+                                        <input type="text" name="username" defaultValue="" placeholder="Nombre" required/>
                                     </div>
                                     
                                     <div className="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="email" name="email" value="" placeholder="Email" required/>
+                                        <input type="email" name="email" defaultValue="" placeholder="Email" required/>
                                     </div>
 									
 									<div className="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="phone" value="" placeholder="Teléfono" required/>
+                                        <input type="text" name="phone" defaultValue="" placeholder="Teléfono" required/>
                                     </div>
                                     
                                     <div className="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="subject" value="" placeholder="Tema" required/>
+                                        <input type="text" name="subject" defaultValue="" placeholder="Tema" required/>
                                     </div>
                                     
                                     <div className="form-group col-md-12 col-sm-12 col-xs-12">

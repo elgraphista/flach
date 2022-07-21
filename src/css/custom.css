@@ -257,3 +257,7 @@ p {
   .main-footer .footer-widget .social-icon-two li {
     margin-left: 0;
   }
+
+  .services-block-two .inner-box .text {
+    font-family: var(--fontFamily-serif);
+  }

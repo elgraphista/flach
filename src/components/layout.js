@@ -264,29 +264,27 @@ const Layout = ({ location, title, children }) => {
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossOrigin="anonymous"></script>
 
 {/* Rev Slider */}
-{/* <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-<script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
-<script src="js/main-slider-script.js"></script> */}
+<script src="http://wp.efforttech.net/html/abbey/abbey/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="http://wp.efforttech.net/html/abbey/abbey/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="http://wp.efforttech.net/html/abbey/abbey/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="http://wp.efforttech.net/html/abbey/abbey/plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="http://wp.efforttech.net/html/abbey/abbey/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="http://wp.efforttech.net/html/abbey/abbey/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="http://wp.efforttech.net/html/abbey/abbey/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="http://wp.efforttech.net/html/abbey/abbey/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="http://wp.efforttech.net/html/abbey/abbey/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="http://wp.efforttech.net/html/abbey/abbey/js/main-slider-script.js"></script>
 {/* Rev Slider */}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.1/jquery.fancybox.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"></script>
-<script src="https://cdn.tutorialjinni.com/jquery.appear/0.4.1/jquery.appear.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.1/wow.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.1.1/isotope.pkgd.min.js"></script>
-{/* <script src="../js/cursor.js"></script>
-<script src="./src/js/script.js"></script> */}
+<script src="http://wp.efforttech.net/html/abbey/abbey/js/jquery.fancybox.js"></script>
+<script src="http://wp.efforttech.net/html/abbey/abbey/js/owl.js"></script>
+<script src="http://wp.efforttech.net/html/abbey/abbey/js/appear.js"></script>
+<script src="http://wp.efforttech.net/html/abbey/abbey/js/wow.js"></script>
+<script src="http://wp.efforttech.net/html/abbey/abbey/js/parallax.min.js"></script>
+<script src="http://wp.efforttech.net/html/abbey/abbey/js/jquery-ui.js"></script>
+<script src="http://wp.efforttech.net/html/abbey/abbey/js/isotope.js"></script>
+{/* <script src="http://wp.efforttech.net/html/abbey/abbey/js/cursor.js"></script> */}
+<script src="http://wp.efforttech.net/html/abbey/abbey/js/script.js"></script>
       </Helmet>
     </>
   )
